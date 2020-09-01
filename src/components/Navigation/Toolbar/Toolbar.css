@@ -1,0 +1,41 @@
+.Toolbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #e06416;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    z-index: 500;
+    padding: 1vh 60px 1.5vh 20px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top:20px;
+    border-bottom: 2px solid white;
+
+}
+
+.Toolbar::before{
+    content: "";
+    background: white;
+    height: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+@media(max-width:599px){
+    .hide{
+        display: none !important;
+    }
+    .Toolbar{
+        left: 0;
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,12 @@
+.Modal{
+    height: fit-content;
+    width: 30%;
+    background-color: #ffc37a;
+    border: 1px solid chocolate;
+    position: fixed;
+    top: 30vh;
+    right: 30%;
+    padding: 3% 5%;
+    transition: all 0.3s ease-out;
+}
+
